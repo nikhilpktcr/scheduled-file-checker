@@ -1,11 +1,19 @@
 {
-  "name": "scheduledfilenamechecker",
+  "name": "scheduledfilechecker",
   "version": "1.0.0",
-  "description": "scheduled file name checker",
+  "description": "scheduled file checker",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NIKHILPK92/scheduledFileNameChecker.git"
+  },
   "author": "Nikhil",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NIKHILPK92/scheduledFileNameChecker/issues"
+  },
+  "homepage": "https://github.com/NIKHILPK92/scheduledFileNameChecker#readme"
 }

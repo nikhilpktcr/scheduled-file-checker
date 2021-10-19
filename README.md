@@ -19,7 +19,7 @@ checker >> true or false;
 
 # default
 
-path is mandatory 
+* path is mandatory 
 
-time >> `* * * * *` // every senconds
+* time >> `* * * * *` // every seconds
 

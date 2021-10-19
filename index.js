@@ -1,13 +1,16 @@
-import fs from 'fs';
-import cron from 'node-cron';
 
-const scheduledFileNameChecker  = async(path, checkTime) =>{
-    cron.schedule(checkTime, () =>{
-        if (fs.existsSync(path)) {
-            return true;
-        }
-        return false;
-    });
+const scheduledFileChecker  = async(path, checkTime) =>{
+    if(path !==null){
+        let timer = checkTime ? checkTime : `* * * * *`
+        const fs = require('fs');
+        const cron = require('node-cron');
+        cron.schedule(timer, () =>{
+            if (fs.existsSync(path)) {
+                return true;
+            }
+            return false;
+        });
+    }
 }
 
-module.exports.scheduledFileNameChecker = scheduledFileNameChecker;
+module.exports.scheduledFileChecker = scheduledFileChecker;
