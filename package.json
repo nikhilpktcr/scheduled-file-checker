@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NIKHILPK92/scheduledFileNameChecker.git"
+    "url": "git+https://github.com/NIKHILPK92/scheduledFileChecker.git"
   },
   "author": "Nikhil",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NIKHILPK92/scheduledFileNameChecker/issues"
+    "url": "https://github.com/NIKHILPK92/scheduledFileChecker/issues"
   },
-  "homepage": "https://github.com/NIKHILPK92/scheduledFileNameChecker#readme"
+  "homepage": "https://github.com/NIKHILPK92/scheduledFileChecker#readme"
 }
