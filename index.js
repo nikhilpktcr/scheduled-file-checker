@@ -1,16 +1,24 @@
+const fs = require('fs');
+const cron = require('node-cron');
 
-const scheduledFileChecker  = async(path, checkTime) =>{
-    if(path !==null){
-        let timer = checkTime ? checkTime : `* * * * *`
-        const fs = require('fs');
-        const cron = require('node-cron');
-        cron.schedule(timer, () =>{
-            if (fs.existsSync(path)) {
-                return true;
-            }
-            return false;
-        });
+const schedulerFn  = (path) =>{
+    if (fs.existsSync(path)) {
+        return true;
+    }else{
+        return false;
     }
 }
+
+
+const scheduledFileChecker = (path, checkTime) =>{
+    let result;
+    cron.schedule( checkTime ? checkTime : `* * * * *`, () =>{
+        result =  schedulerFn(path);
+        console.log(result);
+        return result;
+    });
+    
+}
+
 
 module.exports.scheduledFileChecker = scheduledFileChecker;

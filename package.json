@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NIKHILPK92/scheduledFileChecker/issues"
   },
-  "homepage": "https://github.com/NIKHILPK92/scheduledFileChecker#readme"
+  "homepage": "https://github.com/NIKHILPK92/scheduledFileChecker#readme",
+  "dependencies": {
+    "node-cron": "^3.0.0"
+  }
 }
