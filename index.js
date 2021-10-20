@@ -23,7 +23,4 @@ const scheduledFileChecker = (path, checkTime) =>{
   return result;
 }
 
-let check = scheduledFileChecker('D:/Vscode/scheduledFileChecker/package.json');
-console.log(check);
-
 module.exports.scheduledFileChecker = scheduledFileChecker;
