@@ -3,7 +3,7 @@ check file present on scheduled time.
 
 processing >> first you will get this message.
 true >> file is present on a scheduled time.
-false >> fiie not present on a scheduled time.
+false >> file not present on a scheduled time.
 
 possible values
 * processing(initializing time only)
