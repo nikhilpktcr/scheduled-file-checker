@@ -13,12 +13,17 @@ const schedulerFn  = (path) =>{
 const scheduledFileChecker = (path, checkTime) =>{
     let result;
     cron.schedule( checkTime ? checkTime : `* * * * *`, () =>{
-        result =  schedulerFn(path);
+        result = schedulerFn(path);
         console.log(result);
-        return result;
     });
-    
+    if(!result){
+        result = 'processing'
+        return(result);
+    }
+  return result;
 }
 
+let check = scheduledFileChecker('D:/Vscode/scheduledFileChecker/package.json');
+console.log(check);
 
 module.exports.scheduledFileChecker = scheduledFileChecker;

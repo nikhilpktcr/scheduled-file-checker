@@ -21,5 +21,5 @@ checker >> true or false;
 
 * path is mandatory 
 
-* time >> `* * * * *` // every seconds
+* time >> `* * * * *` // every minutes
 

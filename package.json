@@ -1,8 +1,11 @@
 {
   "name": "scheduledfilechecker",
   "version": "1.0.0",
-  "description": "scheduled file checker",
+  "description": "file checker with perticular time interval ",
   "main": "index.js",
+  "dependencies": {
+    "node-cron": "^3.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +13,20 @@
     "type": "git",
     "url": "git+https://github.com/NIKHILPK92/scheduledFileChecker.git"
   },
+  "keywords": [
+    "file",
+    "fs",
+    "cron",
+    "node-cron",
+    "file",
+    "check",
+    "checker",
+    "check"
+  ],
   "author": "Nikhil",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NIKHILPK92/scheduledFileChecker/issues"
   },
-  "homepage": "https://github.com/NIKHILPK92/scheduledFileChecker#readme",
-  "dependencies": {
-    "node-cron": "^3.0.0"
-  }
+  "homepage": "https://github.com/NIKHILPK92/scheduledFileChecker#readme"
 }
