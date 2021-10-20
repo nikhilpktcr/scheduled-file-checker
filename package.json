@@ -1,7 +1,7 @@
 {
-  "name": "filechecker",
-  "version": "1.0.0",
-  "description": "scheduled checking for a file exists or not in the directory",
+  "name": "scheduled-file-checker",
+  "version": "1.0.1",
+  "description": "scheduled file exist or not checker",
   "main": "index.js",
   "dependencies": {
     "node-cron": "^3.0.0"
@@ -12,21 +12,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NIKHILPK92/fileChecker.git"
+    "url": "git+https://github.com/NIKHILPK92/scheduled-file-checker.git"
   },
   "keywords": [
-    "cron",
-    "scheduler",
-    "node-cron",
     "file",
-    "fileexist",
     "fs",
-    "filescheduler"
+    "cron",
+    "node-cron",
+    "scheduler",
+    "file-scheduler",
+    "cron-scheduler"
   ],
   "author": "Nikhil",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NIKHILPK92/fileChecker/issues"
+    "url": "https://github.com/NIKHILPK92/scheduled-file-checker/issues"
   },
-  "homepage": "https://github.com/NIKHILPK92/fileChecker#readme"
+  "homepage": "https://github.com/NIKHILPK92/scheduled-file-checker#readme"
 }

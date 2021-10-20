@@ -13,12 +13,12 @@ possible values
 
 # Installation
 
-`npm install fileChecker` or ` npm i fileChecker`
+`npm install scheduled-file-checker` or ` npm i scheduled-file-checker`
 
 
 # usage 
 
-const scheduledFileChecker = require(`fileChecker`);
+const scheduledFileChecker = require(`scheduled-file-checker`);
 
 let checker = scheduledFileChecker(path, `* * * * *`);
 
