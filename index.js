@@ -18,7 +18,7 @@ const fileChecker = (path, checkTime) =>{
     });
     if(!result){
         result = 'processing'
-        return(result);
+        return result;
     }
   return result;
 }
