@@ -10,6 +10,7 @@ possible values
 * true
 * false
 
+
 # Installation
 
 `npm install scheduledFileChecker` or ` npm i scheduledFileChecker`
