@@ -1,5 +1,5 @@
 # About the package
-check file present on  scheduled time.
+check file present on scheduled time.
 
 processing >> first you will get this message.
 true >> file is present on a scheduled time.
@@ -13,12 +13,12 @@ possible values
 
 # Installation
 
-`npm install scheduledFileChecker` or ` npm i scheduledFileChecker`
+`npm install fileChecker` or ` npm i fileChecker`
 
 
 # usage 
 
-const scheduledFileChecker = require(`scheduledFileChecker`);
+const scheduledFileChecker = require(`fileChecker`);
 
 let checker = scheduledFileChecker(path, `* * * * *`);
 

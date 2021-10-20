@@ -1,32 +1,30 @@
 {
-  "name": "scheduledfilechecker",
+  "name": "filechecker",
   "version": "1.0.0",
-  "description": "file checker with perticular time interval ",
+  "description": "scheduled checking for a file exists or not in the directory",
   "main": "index.js",
-  "dependencies": {
-    "node-cron": "^3.0.0"
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NIKHILPK92/scheduledFileChecker.git"
+    "url": "git+https://github.com/NIKHILPK92/fileChecker.git"
   },
   "keywords": [
-    "file",
-    "fs",
     "cron",
+    "scheduler",
     "node-cron",
     "file",
-    "check",
-    "checker",
-    "check"
+    "fileexist",
+    "fs",
+    "filescheduler"
   ],
   "author": "Nikhil",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NIKHILPK92/scheduledFileChecker/issues"
+    "url": "https://github.com/NIKHILPK92/fileChecker/issues"
   },
-  "homepage": "https://github.com/NIKHILPK92/scheduledFileChecker#readme"
+  "homepage": "https://github.com/NIKHILPK92/fileChecker#readme"
 }

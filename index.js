@@ -10,7 +10,7 @@ const schedulerFn  = (path) =>{
 }
 
 
-const scheduledFileChecker = (path, checkTime) =>{
+const fileChecker = (path, checkTime) =>{
     let result;
     cron.schedule( checkTime ? checkTime : `* * * * *`, () =>{
         result = schedulerFn(path);
@@ -23,4 +23,4 @@ const scheduledFileChecker = (path, checkTime) =>{
   return result;
 }
 
-module.exports.scheduledFileChecker = scheduledFileChecker;
+module.exports.fileChecker = fileChecker;
